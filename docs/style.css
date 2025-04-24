@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20pt;
+}
+
+#header {
+  margin: 10px;
+}
+
+#footer {
+  margin-bottom: 100px;
+  line-height: 1.9;
+}
