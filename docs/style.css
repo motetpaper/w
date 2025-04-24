@@ -8,6 +8,8 @@ body {
 }
 
 #footer {
+  font-size: 24pt;
+  font-weight: bold;
   margin-bottom: 100px;
   line-height: 1.9;
 }
