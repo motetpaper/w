@@ -9,13 +9,9 @@
   <link href="style-hp.css" rel="stylesheet">
 </head>
 <body>
-<div id="header">
-  <a href="/">home</a> &middot;  
-  <a href="/privacy.html">privacy</a> &middot;
-  <a href="/terms.html">terms</a> &middot;
-  <a target="_blank" href="https://www.pnyn.fun/support-contact-form.html">contact</a>
-</div>  
-
+  <div id="header">
+    {% include nav.html %}
+    </div>  
 
 
 
@@ -23,10 +19,8 @@
 
   
 <div id="footer">
-  <a href="/">home</a> &middot;  
-  <a href="/privacy.html">privacy</a> &middot;
-  <a href="/terms.html">terms</a> &middot;
-  <a target="_blank" href="https://www.pnyn.fun/support-contact-form.html">contact</a><br/>
+  {% include nav.html %}
+  <br/>
   MOTETPAPER &copy; 2025
 </div>
 </body>

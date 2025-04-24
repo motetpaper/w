@@ -1,5 +1,6 @@
-
-<!DOCTYPE html>
+---
+---
+<!doctype html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -10,10 +11,7 @@
 </head>
 <body>
 <div id="header">
-  <a href="/">home</a> &middot;  
-  <a href="/privacy.html">privacy</a> &middot;
-  <a href="/terms.html">terms</a> &middot;
-  <a target="_blank" href="https://www.pnyn.fun/support-contact-form.html">contact</a>
+{% include nav.html %}
 </div>  
 
 <h1><img align="absmiddle" src="icon-hp.png" title="motet hanyu pinyin icon"><b>MOTET</b> HANYUPINYIN</h1>
@@ -37,10 +35,8 @@
 </p>
 
 <div id="footer">
-  <a href="/">home</a> &middot;  
-  <a href="/privacy.html">privacy</a> &middot;
-  <a href="/terms.html">terms</a> &middot;
-  <a target="_blank" href="https://www.pnyn.fun/support-contact-form.html">contact</a><br/>
+  {% include nav.html %}
+  <br/>
   MOTETPAPER &copy; 2025
 </div>
 </body>
