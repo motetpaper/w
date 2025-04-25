@@ -8,6 +8,10 @@ a, a:visited {
 }
 
 .scope {
+  line-height: 1.9;
+}
+
+.scope tt {
   background-color: white;
   color: #003300;
   padding: 10px;
