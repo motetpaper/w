@@ -6,3 +6,9 @@ body {
 a, a:visited {
   color: lightgreen;
 }
+
+.scope {
+  background-color: white;
+  color: #003300;
+  margin: 10px;
+}
